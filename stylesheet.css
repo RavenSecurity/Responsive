@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+    font-size: 30px;
+    display: flex;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: greenyellow;
+        font-size: 20px;
+        display: block;
+    }
+    div {
+        display: block;
+    }
+
+    .small,
+    .medium {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color: orangered;
+        font-size: 10px;
+        display: block;
+    }
+
+    div {
+        display: block;
+    }
+}
+
